@@ -20,7 +20,7 @@
 
 | Dashboard | Student List | Statistics |
 | :---: | :---: | :---: |
-| ![Dashboard](https://via.placeholder.com/400x250?text=Dashboard+View) | ![List](https://via.placeholder.com/400x250?text=Student+List) | ![Chart](https://via.placeholder.com/400x250?text=Statistics+Chart) |
+| ![Dashboard](https://raw.githubusercontent.com/TssHack/student-management-system/refs/heads/main/1.png) | ![List](https://raw.githubusercontent.com/TssHack/student-management-system/refs/heads/main/2.png) | ![ab](https://raw.githubusercontent.com/TssHack/student-management-system/refs/heads/main/abute.png) |
 
 ---
 
