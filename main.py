@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QH
                              QLabel, QLineEdit, QPushButton, QTableWidget, QTableWidgetItem,
                              QHeaderView, QFileDialog, QMessageBox, QGroupBox, QFormLayout, 
                              QDoubleSpinBox, QStatusBar, QMenuBar, QMenu, QAction, QDialog,
-                             QDialogButtonBox, QProgressBar, QGridLayout, QSizePolicy, QFrame)
+                             QDialogButtonBox, QProgressBar, QSizePolicy, QFrame, QSplitter, QGridLayout) # QGridLayout اضافه شد
 from PyQt5.QtCore import Qt, QTimer, QSize
 from PyQt5.QtGui import QFont, QPixmap, QPainter
 import matplotlib.pyplot as plt
@@ -369,7 +369,7 @@ class StudentManagementSystem(QMainWindow):
             self.status_bar.showMessage(f"تعداد {len(students)} دانشجو بارگذاری شد")
         except Exception as e:
             QMessageBox.critical(self, "خطا", f"خطا در بارگذاری دانشجویان: {str(e)}")
-    
+
     def update_dashboard(self):
         try:
             self.cursor.execute("SELECT COUNT(*) FROM students")
